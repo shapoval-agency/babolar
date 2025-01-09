@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'icons';
+	src:
+		url('../fonts/icons.ttf?2nd3ui') format('truetype'),
+		url('../fonts/icons.woff?2nd3ui') format('woff'),
+		url('../fonts/icons.svg?2nd3ui#icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="_icon-"]::before,
+[class^="_icon-"]::after,
+[class*=" _icon-"]::before,
+[class*=" _icon-"]::after {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icons' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+._icon-star:before {
+	content: "\e915";
+	color: #ffd233;
+}
+
+._icon-alert:before {
+	content: "\e900";
+}
+
+._icon-arrow-down:before {
+	content: "\e901";
+}
+
+._icon-arrow-right:before {
+	content: "\e902";
+}
+
+._icon-arrow-left:before {
+	content: "\e903";
+}
+
+._icon-arrow-up:before {
+	content: "\e904";
+}
+
+._icon-attach:before {
+	content: "\e905";
+}
+
+._icon-burger:before {
+	content: "\e906";
+}
+
+._icon-chevron-right:after {
+	content: "\e907";
+}
+
+._icon-chevron-left:before {
+	content: "\e908";
+}
+
+._icon-close:after {
+	content: "\e909";
+}
+
+._icon-comment:before {
+	content: "\e90a";
+}
+
+._icon-facebook:before {
+	content: "\e90b";
+}
+
+._icon-instagram:before {
+	content: "\e90c";
+}
+
+._icon-like:before {
+	content: "\e90d";
+}
+
+._icon-linkedin:before {
+	content: "\e90e";
+}
+
+._icon-moon:before {
+	content: "\e90f";
+}
+
+._icon-play:after {
+	content: "\e910";
+}
+
+._icon-plus:before {
+	content: "\e911";
+}
+
+._icon-send:before {
+	content: "\e912";
+}
+
+._icon-sun:before {
+	content: "\e913";
+}
+
+._icon-youtube:before {
+	content: "\e914";
+}

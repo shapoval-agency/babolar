@@ -1,0 +1,25 @@
+@use "sass:math";
+
+@import 'global/mixins';
+@import 'global/typography';
+@import 'global/variables';
+@import 'global/base';
+@import 'global/icons';
+@import 'global/colors';
+@import 'global/common';
+@import 'global/reset';
+@import 'global/buttons';
+@import 'global/links';
+
+@import 'blocks/notification';
+@import 'blocks/header';
+@import 'blocks/hero';
+@import 'blocks/two-block';
+@import 'blocks/about';
+@import 'blocks/fixtures';
+@import 'blocks/services';
+@import 'blocks/projects';
+@import 'blocks/reviews';
+@import 'blocks/logos';
+@import 'blocks/footer';
+@import 'blocks/popup';
